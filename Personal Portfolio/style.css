@@ -1,53 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
-body{
-    background:#0F1624;
-    color:white;
+body {
+    background: #0F1624;
+    color: white;
     font-family: 'Poppins', sans-serif;
-    box-sizing:border-box;
-    margin:0;
+    box-sizing: border-box;
+    margin: 0;
 }
 
-.navbar{
+.navbar {
     color: white;
 }
 
-.nav{
-    height: 126px;
+.nav {
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.logo{    
+.logo {
     margin-left: 70px;
     margin-top: -40px;
+    font-size: 35px;
+    font-weight:600;
     cursor: pointer;
 }
 
-.logo p{    
+.logo p {
     font-size: 22px;
+
 }
 
-.logo p span{    
-    font-size:25px;
+.logo p span {
+    font-size: 25px;
 }
 
-.navitems{
-    font-size:18px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    margin-right:350px;
+.navitems {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 350px;
     margin-top: -40px;
     cursor: pointer;
 }
 
-.projects{
-    margin:15px;
+.projects {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 15px;
 }
 
-.socials{
+.socials {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,11 +61,61 @@ body{
     cursor: pointer;
 }
 
-.linkdin{
-    margin-left:15px;
+.linkdin {
+    margin-left: 15px;
 }
 
-.twitter{
-    margin-left:15px;
+.twitter {
+    margin-left: 15px;
 }
 
+
+.introduction{
+    margin-left: 70px;
+    margin-top: -20px;
+    display:flex;
+    align-items:center;
+}
+
+.heading h1{
+    font-size:40px;
+    margin-left:20px;
+}
+
+.description p{
+    font-size: 25px;
+    margin-left: 60px;
+}
+
+.rightimg{
+    margin-left: 770px;
+    margin-top: -300px;
+    width: 500px;
+    height: 500px;
+}
+
+.img{
+    width:500px;
+    height:500px
+}
+
+.btn{
+    margin-top: 40px;
+    margin-left: 100px;
+    width: 150px;
+    height: 50px;
+}
+
+.btr{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    background-image:linear-gradient(to right,#13ADC7,#6978D1,#945DD6);
+}
+
+button p{
+    font-weight: 600;
+    margin-top: 11px;
+    font-size: 20px;
+}
